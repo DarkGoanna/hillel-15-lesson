@@ -1,0 +1,140 @@
+.header {
+    padding-top: 22px;
+    padding-bottom: 23px;
+
+    &__logo {
+        float: left;
+    }
+    &__nav {
+        float: right;
+        padding-top: 8px;
+    }
+}
+.header-wrp {
+    position: relative;
+}
+
+@keyframes turnover {
+    0% {
+        transform: rotate(0deg);
+    }
+    60% {
+        transform: rotate(380deg);
+    }
+    100% {
+        transform: rotate(-20deg);
+    }
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+
+    &:hover {
+        animation-name: turnover;
+        animation-duration: 0.7s;
+        animation-timing-function: ease-in-out;
+    }
+    
+    &__link {
+        display: inline-block;
+    }
+    &__img {
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+.nav {
+    display: inline-block;
+    vertical-align: top;
+    
+    &__item {
+        display: inline-block;
+    }
+    &__link {
+        display: inline-block;
+        color: $nav-text;
+        font-family: 'Lato';
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 10px 18px;
+        transition-property: all;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+        
+        &:hover {
+            color: $white;
+            background-color: $button;
+            border-radius: 3px;
+        }
+    }
+}
+
+/* tablet */
+@media (max-width: 1219px) {
+    .header {
+        &__logo {
+            margin-left: 20px;
+        }
+        & .container {
+            padding: 0;
+        }
+    }
+    .nav {
+        &__link {
+            padding: 10px 9px;
+        }
+    }
+}
+
+/* mobile */
+@media (max-width: 767px) {
+    .header-wrp {
+        position: absolute;
+    }
+    .header {
+        background-color: #eeeeee;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        max-width: 140px;
+        z-index: 10;
+        padding-top: 10px;
+        transform: translateX(-125px);
+
+        &:hover {
+            transform: translateX(0px);
+        }
+        &__logo {
+            display: block;
+            text-align: left;
+            margin-left: 10px;;
+            float: none;
+        }
+    }
+    .nav {
+        display: block;
+        width: 100%;
+        float: none;
+
+        &__item {
+            display: block;
+        }
+        &__link {
+            display: block;
+        }
+    }
+    .logo {
+        &:hover {
+            animation: none;
+        }
+
+        &__img {
+            width: 35px;
+            height: 35px;
+        }
+    }
+}

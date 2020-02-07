@@ -1,0 +1,66 @@
+//кавычки
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../fonts/Brandon_grotesque_bold/subset-BrandonGrotesque-Bold.eot');
+    src: url('../fonts/Brandon_grotesque_bold/subset-BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Brandon_grotesque_bold/subset-BrandonGrotesque-Bold.woff2') format('woff2'),
+        url('../fonts/Brandon_grotesque_bold/subset-BrandonGrotesque-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+//заголовки
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham_black/subset-Gotham-Black.eot');
+    src: url('../fonts/Gotham_black/subset-Gotham-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham_black/subset-Gotham-Black.woff2') format('woff2'),
+        url('../fonts/Gotham_black/subset-Gotham-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+//текст
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato_light/subset-Lato-Light.eot');
+    src: url('../fonts/Lato_light/subset-Lato-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato_light/subset-Lato-Light.woff2') format('woff2'),
+        url('../fonts/Lato_light/subset-Lato-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato_bold/subset-Lato-Bold.eot');
+    src: url('../fonts/Lato_bold/subset-Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato_bold/subset-Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato_bold/subset-Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato_regular/subset-Lato-Regular.eot');
+    src: url('../fonts/Lato_regular/subset-Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato_regular/subset-Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato_regular/subset-Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/Open_sans_regular/subset-OpenSans-Regular.eot');
+    src: url('../fonts/Open_sans_regular/subset-OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Open_sans_regular/subset-OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/Open_sans_regular/subset-OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/Open_sans_light/subset-OpenSans-Light.eot');
+    src: url('../fonts/Open_sans_light/subset-OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Open_sans_light/subset-OpenSans-Light.woff2') format('woff2'),
+        url('../fonts/Open_sans_light/subset-OpenSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}

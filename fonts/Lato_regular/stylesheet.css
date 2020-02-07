@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('subset-Lato-Regular.eot');
+    src: url('subset-Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('subset-Lato-Regular.woff2') format('woff2'),
+        url('subset-Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

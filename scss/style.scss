@@ -1,0 +1,53 @@
+@import 'fonts';
+@import 'resetCSS';
+@import 'colors';
+@import 'header';
+@import 'banner';
+@import 'services';
+@import 'about-us';
+@import 'price';
+@import 'how-it-work';
+@import 'clients';
+@import 'footer';
+@import 'hamburger';
+
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+}
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+/* tablet */
+@media (max-width: 1219px) {
+    .container {
+        max-width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+/* mobie */
+@media (max-width: 767px) {
+    .container {
+        max-width: 100%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.title {
+    font-family: 'Gotham';
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: -0.75px;
+    text-transform: uppercase;
+}
